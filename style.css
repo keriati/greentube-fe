@@ -203,9 +203,11 @@ body.links #btnLinks {text-decoration: underline;}
 
 #footer {
     clear: both;
-    background: #463265;
     padding: 10px;
+}
+#footer p {
     color: white;
+    background: #463265;
 }
 
 /**
