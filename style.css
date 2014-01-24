@@ -65,12 +65,12 @@ p,pre,dl,menu,ol,ul{margin:1em 0;}
  * Base styles
  */
 
-*behavior: url(boxsizing.htc);
-
 * {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+*behavior: url(boxsizing.htc);
 
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -173,6 +173,9 @@ body.links #btnLinks {text-decoration: underline;}
 #sidebar {
     float: left;
     width: 20%;
+}
+
+#sidebar .flickr {
     padding: 0 20px;
 }
 
@@ -182,6 +185,10 @@ body.links #btnLinks {text-decoration: underline;}
     float: left;
     overflow: hidden;
     width: 50%;
+}
+
+#links {
+    padding: 0 20px;
 }
 
 #links ul {
